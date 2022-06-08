@@ -1,0 +1,116 @@
+/*************************************
+   ______
+  /\__  _\
+  \/_/\ \/   _  _  _    __
+     \ \ \  /\ \/\ \/\ \  / __`\
+      \ \ \ \ \ \_/ \_/ \/\ \L\ \
+       \ \_\ \ \___x___/'\ \____/
+        \/_/  \/__//__/   \/___/
+
+   -----------------------------
+
+         www.two-uk.com
+
+  -----------------------------
+***************************************/
+/* background-color: rgb(214, 213, 221); */
+*{
+	margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  -webkit-font-smoothing: antialiased;
+  background-color:#FFFFFF;
+  font-family: Arial, sans-serif;
+  
+}
+
+/******************
+MAIN WRAPPER
+******************/
+
+.main-wrapper {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.main__body{
+	padding: 10px;
+	width: 310px;
+	height: 620px;
+	position: relative;
+	background-color: rgb(255, 206, 0);
+
+	
+
+}
+
+.main__item{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+.header-main__text{
+	transform: translateX(-300px);
+	opacity: 0;
+	font-size: 13px;
+}
+
+.header-main__title p{
+	font-size: 30px;
+	opacity: 0;
+	color: #000;
+
+}
+
+
+.content-main__img{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: translateY(-300px);
+	opacity: 0;
+
+	
+	}
+	
+	.content-main__img img{
+		width: 200px;
+	}
+	.content-main__subtitle {
+		position: absolute;
+		color:  rgb(255, 206, 0);
+		text-align: center;
+		font-size: 28px;
+	}
+
+	.content-main__title {
+		display: flex;
+
+	}
+	.content-main__title p{
+		margin-right: 10px;
+		font-size: 24px;
+		text-transform: uppercase;
+		font-weight: 900;
+		transform: translateY(-100px);
+		opacity: 0;
+
+
+
+		
+	}
+
+	.content-main__title p:last-child{
+		margin-right: 0;
+
+	}
+
+
